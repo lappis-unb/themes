@@ -182,6 +182,187 @@ body {
 div#notice {
   opacity: 1 !important;
   background: #003C47;
+}
+
+#profile-dropdown #user-name {
+  display: block;
+  color: white;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+#profile-dropdown #profile-logged-in #logged-options {
+  list-style: none;
+  padding-left: 0px;
+  margin: 0;
+}
+
+
+#profile-dropdown #profile-logged-in #logged-options li {
+  background: #009B37;
+  padding-bottom: 0px;
+  min-width: 190px;
+  border-radius: 5px;
+  margin: 0px 0px 2px 0px;
+  height: 30px;
+}
+
+#profile-dropdown #profile-logged-in #logged-options li a {
+  color: white;
+  text-decoration: none;
+  line-height: 30px;
+  display: block;
+}
+
+#profile-dropdown #profile-logged-in #logged-options li a:hover {
+  color: #ddd;
+}
+
+.footer-division-title {
+  text-transform: uppercase;
+}
+
+#profile-header-actions {
+  max-width: 125px;
+}
+
+#header-login #header-login-options {
+  display: flex;
+  margin-top: 12px;
+}
+
+.header-login-options-col {
+  width: 50%;
+}
+
+.header-login-options-col.left {
+  text-align: left;
+}
+
+.header-login-options-col.right {
+  text-align: right;
+}
+
+#header-login > #login-inputs input {
+  display: inline;
+  border-radius: 4px;
+  width: 108px;
+  height: 20px;
+  padding: 3px;
+}
+
+#header-login input::-webkit-input-placeholder {
+  text-align: center;
+  text-transform: lowercase;
+  color: #CECECE;
+}
+
+#header-login .header-login-options-col input[type=submit] {
+  padding: 20px;
+  margin: 0;
+  text-transform: UPPERCASE;
+  background-color: #005D34;
+  line-height: 2px;
+  color: white;
+  font-weight: 900;
+  border: none;
+  border-bottom: 5px solid #003A19;
+  width: 85%;
+}
+
+#header-login .header-login-options-col input[type=submit]:hover {
+  cursor: pointer;
+}
+
+#internal-link > ul,
+#social-media > div > ul,
+#footer-content > ul > li:nth-child(4) > ul {
+  margin-top: 10%;
+}
+
+#header-login .header-login-options-col input[type=submit]:focus {
+  outline: none;
+  background-color: #003A19;
+}
+
+#profile-header-fga #header-login #remember-me-checkbox {
+  transform: scale(1.5);
+}
+
+#profile-header-fga #header-login #remember-me-label {
+  color: white;
+  margin-top: 10px;
+}
+
+.profile-buttons input:hover {
+  color: #009B37 !important;
+  border-bottom: 5px solid #003A19 !important;
+}
+
+#profile-header-fga .signup-form {
+  padding-top: 5px;
+  text-align: center;
+}
+
+#profile-header-fga .signup-form a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #7b7b7b;
+}
+
+#profile-header-fga .signup-form a:hover {
+  text-decoration: underline;
+}
+
+#profile-menu-dropdown {
+  display: flex;
+  align-items: center;
+  margin-right: 9px;
+  justify-content: flex-end;
+}
+
+#profile-menu-dropdown > img {
+  border-radius: 100%;
+  max-width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+
+#profile-menu-dropdown > img:hover,
+#profile-menu-dropdown > span:hover {
+  cursor: pointer;
+}
+
+#profile-menu-dropdown .fa.fa-angle-down {
+  padding-left: 5%;
+  font-size: 2em;
+}
+
+#navigation #login-button span {
+  padding-left: 0px;
+  padding-right: 5px;
+}
+
+#profile-header-fga #forgot-password {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #eee;
+}
+
+#profile-header-fga #forgot-password:hover {
+  text-decoration: underline;
+}
+
+#navigation .header-forgot-password a {
+  color: white;
+  font-family: "Aller";
+  font-size: 13px;
+  line-height: 10px;
+  padding-bottom: 5px;
+}
+
+#navigation .header-remember-me {
   color: white;
   border-radius: 0px;
   box-shadow: 2px 2px 2px 0px black;
@@ -210,7 +391,7 @@ div#notice:hover {
       background: #D0D0D0;
 
       &.ui-state-active {
-        background: white; 
+        background: white;
       }
 
       a {
@@ -218,7 +399,7 @@ div#notice:hover {
       }
     }
   }
-  
+
   .ui-widget-content {
     th {
       color: #005263;
@@ -243,4 +424,45 @@ div#notice:hover {
 
 #signup-form .formlabel {
   font-size: 18px;
+}
+
+#footer-content ul li a {
+  font-family: "Aller";
+  color: #707070;
+}
+
+/* UnB Gama - Carousel  */
+.highlights-block-pager {
+  margin-top: 0px;
+  padding: 20px 0px 20px 0px;
+  background-color: #eee;
+  width: 99%;
+}
+.highlights-block-pager a  {
+  background: none;
+  /*width: 35px;
+  height: 6px;*/
+  padding: 0px 20px;
+  margin-right: 15px;
+  background-color: #008E32;
+  border-radius: 10px;
+  font-size: 7px;
+}
+.highlights-block-pager a:hover  {
+  background: none;
+  background-color: #B4BDBE;
+}
+.highlights-block-pager a.activeSlide  {
+  background: none;
+  background-color: #005d27;
+}
+.highlights-label {
+  position: absolute;
+  bottom: 45px;
+  left: 70px;
+  width: initial;
+  font-size: 24px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #008E32;
 }
