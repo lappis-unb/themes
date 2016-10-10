@@ -435,7 +435,6 @@ div#notice:hover {
 .highlights-block-pager {
   margin-top: 0px;
   padding: 20px 0px 20px 0px;
-  background-color: #eee;
   width: 99%;
 }
 .highlights-block-pager a  {
@@ -464,4 +463,22 @@ div#notice:hover {
   border-radius: 5px;
   background: none;
   background-color: #008E32;
+}
+
+.highlights-border #go-prev,
+.highlights-border #go-next {
+  background-color: #008E32;
+  opacity: 1;
+  color: #ffffff;
+  width: 45px;
+  height: 55px;
+  line-height: 55px;
+}
+
+.highlights-border #go-prev {
+  border-radius: 0px 7px 7px 0px;
+}
+
+.highlights-border #go-next {
+  border-radius: 7px 0px 0px 7px;
 }
