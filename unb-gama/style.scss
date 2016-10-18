@@ -461,8 +461,6 @@ div#notice:hover {
   font-size: 24px;
   height: 40px;
   border-radius: 5px;
-  background: none;
-  background-color: #008E32;
 }
 
 .highlights-border #go-prev,
@@ -481,4 +479,18 @@ div#notice:hover {
 
 .highlights-border #go-next {
   border-radius: 7px 0px 0px 7px;
+}
+
+.highlights-title {
+  background: none;
+  background-color: #008E32;
+  margin-bottom: 40px;
+}
+
+.highlights-description {
+  font-size: 12px;
+  font-weight: normal;
+  margin-bottom: -20px;
+  word-wrap: break-word;
+  max-width: 40%;
 }
