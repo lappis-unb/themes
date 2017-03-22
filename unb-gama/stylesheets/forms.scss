@@ -28,25 +28,33 @@
   margin-top:1em;
 }
 
-.toplevel-categories {
+#category-ajax-selector {
 
-  .select-subcategory-link {
+  .icon-back {
+    color:#005263;
+  }
+
+  a.select-subcategory-link {
+    text-decoration:none;
+    color: #000;
+    margin-right: 5px;
+  }
+
+  a.select-subcategory-link:hover {
+    background: #FFF !important;
+    color: #000  !important;
+  }
+
+  #select-categories .toplevel-categories .select-subcategory-link{
     background:#005263;
     color:#FFF;
     text-decoration: none;
     padding:1px 10px;
     border-radius: 10px;
-    margin-right:2px;
+    display: inline-block;
+    margin: 0 7px 10px 0;
     font-weight:bolder;
   }
-
-  .category-helper-label {
-    padding-bottom: 5px;
-  }
-}
-
-div.with_media_panel ~ .text-editor-sidebar {
-  margin-right:40px;
 }
 
 #edit-article-options {
