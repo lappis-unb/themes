@@ -249,3 +249,23 @@ div#notice:hover {
 .controller-admin_panel #box-1 {
     margin: 0 0 0 205px;
 }
+
+.work-assignment-plugin_work-assignment p.submit-file {
+  a {
+    text-decoration: none !important;
+    span {
+      background: #005263;
+      font-weight: normal;
+      color: white;
+      border: none;
+      padding: 5px 10px 5px 10px;
+      border-radius: 4px;
+
+      &:hover {
+        background: white;
+        color: #005263;
+        border: 1px solid #005263;
+      }
+    }
+  }
+}
