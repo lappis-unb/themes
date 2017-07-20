@@ -1,3 +1,10 @@
+unb-gama (1.0.6) unstable; urgency=medium
+
+  [ Richard ]
+  * Removes sign up screen's javascript warning sign
+
+ -- Matheus <matheusrich@matheus-pc>  Thu, 20 Jul 2017 11:56:27 -0300
+
 unb-gama (1.0.5) unstable; urgency=medium
 
   [ Tallys ]
